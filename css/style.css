@@ -1,15 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
 
 table {
     border-collapse: collapse;
     width: 100%;
     text-align: center;
+    color: #660607;
+  }
+
+  thead {
+    color: #660607;
+  }
+
+  tbody tr {
+    color: white;
   }
 
   th, td {
     border: 1px solid #dddddd;
     text-align: center;
     padding: 8px;
-  
   }
 
 body {
@@ -19,10 +28,11 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  font-family: 'Salsa', cursive;
 }
 
 .partone {
-  border: 3px #660607 solid;
+  border: 3px #a2494a solid;
 }
 
 

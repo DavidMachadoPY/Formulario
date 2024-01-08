@@ -6,7 +6,7 @@
 let contenedorTabla = document.querySelector('.content-table')
 
 const tabla = document.createElement("table");
-tabla.classList.add('table', 'table-dark')
+tabla.classList.add('tabla')
 contenedorTabla.appendChild(tabla)
 
 const thead = document.createElement('thead')
