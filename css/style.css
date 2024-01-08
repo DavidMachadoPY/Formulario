@@ -1,0 +1,83 @@
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+  }
+
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  
+  }
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background-image: url(../img/16134890_5717512.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.partone {
+  border: 3px #660607 solid;
+}
+
+
+.row {
+  width: 70%;
+  backdrop-filter: blur(20px);
+  border-radius: 25px;
+  box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.7); 
+}
+
+.label {
+  color: #660607;
+}
+
+.input {
+  background-color: #66060877;
+  border: 2px #660607 solid;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-radius: 0px;
+  color: #660607;
+  outline: none;
+}
+
+.input:hover {
+  color: white;
+  background-color: #66060877;
+  outline: none;
+}
+
+.content-table {
+  background-color: #66060877;
+  border-radius: 25px;
+  color: white;
+  max-height: 300px;
+  overflow-y: auto;
+  
+}
+
+/* Configuración personalizada para el scrollbar webkit (Chrome, Safari, Edge) */
+
+/* Estilo del scrollbar principal */
+::-webkit-scrollbar {
+  width: 10px; /* Ancho del scrollbar */
+}
+
+/* Estilo de la pista (fondo) del scrollbar */
+::-webkit-scrollbar-track {
+  background-color: rgb(255, 255, 255); /* Color de fondo para la pista del scrollbar */
+  border-radius: 25px;
+}
+
+/* Estilo del thumb (barra deslizante) dentro del scrollbar */
+::-webkit-scrollbar-thumb {
+  border-radius: 100px; /* Radio de borde para el thumb */
+  background-color: #660607; /* Color inicial del thumb */
+}
